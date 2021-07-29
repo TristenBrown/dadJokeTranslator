@@ -1,0 +1,177 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding-top: 5vh;
+}
+.signIn{
+    text-align: right;
+}
+#form{
+    width: 70%;
+    border: 1px solid white;
+    /*
+        I got this code to center my login form vertically and horizontally from https://www.w3schools.com/howto/howto_css_center-vertical.asp
+    */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#jokeContainer{
+    /*
+        I got the code to center the text in jokeContainer horizontally and vertically from https://www.w3schools.com/css/css_align.asp
+    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 20vh;
+    border: 2px solid white;
+}
+#joke{
+    text-align: center;
+}
+#language{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#randomJoke{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 9%;
+}
+.formRow{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+#formRowOne{
+    margin-top: 8vh;
+}
+#formTitle{
+    margin: 0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#create{
+    text-align: center;
+}
+.savedJoke{
+    text-align: center;
+}
+#savedControls{
+    margin-left: auto;
+    margin-right: auto;
+}
+#jokeControls{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#searchInput{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: oblique;
+}
+#searchButtons{
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#applyButton{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#allButton{
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 9%;
+}
+#searchDiv{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#save{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+#createdJoke{
+    width: 80%;
+    text-align: center;
+}
+/*
+    I got and modified this navbar code from my challenge 5 solution
+*/
+#navbar {
+    background-color: darkslategrey;
+    list-style-type: none;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navDiv{
+    text-align: center;
+    background-color: darkslategray;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    padding: 0;
+    z-index: 10;
+    height: 4vh;
+}
+#savedDiv{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+#navbar li {
+    color: white;
+    display: inline;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: monospace;
+}
+#navbar a:any-link{
+    color: white;
+    text-decoration: none;
+}
+
+#centerPage{
+    color: white;
+    width: 80%;
+     /*
+        I got this code to center my login form vertically and horizontally from https://www.w3schools.com/howto/howto_css_center-vertical.asp
+    */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

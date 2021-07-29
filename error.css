@@ -1,0 +1,14 @@
+#errorTitle{
+    text-align: center;
+}
+#errorImageDiv{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+#errorImage{
+   width: 100%; 
+}
+#errorMessage{
+    text-align: center;
+}

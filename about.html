@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+        <link rel="stylesheet" type="text/css" href="Tlbbf5FinalProject.css">
+        <link rel="stylesheet" type="text/css" href="about.css">
+        <script src="jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+        <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+        <script src="Tlbbf5FinalProject.js"></script>
+        <script src="about.js"></script>
+    </head>
+    <body>
+        <div id="centerAbout" class="ui-widget">
+            <h1 id="title" class="ui-widget-header">About</h1>
+            <div id="imageFrame">
+                <div id="imageDiv" class="ui-widget ui-widget-shadow ui-corner-all">
+                <img id="currentPic" src="images/me.jpg" alt="siteCreator">
+                </div>
+            </div>
+            <!--
+                I got this code for the arrows from my ajax challenge
+            -->
+            <div id="arrowDiv">
+                    <span id="leftArrow" class="arrow" onclick="goLeft()">&#8592;</span>
+                    <span id="rightArrow" class="arrow" onclick="goRight()">&#8594;</span>
+                </div>
+            <p id="aboutText">Hello, my name is Tristen Brown and I am currently taking CS 2830 with Professor Wergeles at Mizzou. I created this application in order to entertain people, which is especially important now with Covid. It has four main functions. The first is generating a random dad joke pulled from an api. The second is translating that dad joke into a funny made up language using a seperate api. Sadly, since i'm using this api for free, you're only allowed 5 calls to change the language per hour. The third functionality is creating your own joke and having the option to save it. The last main functionality is signing up in order to save and load jokes and translations that you thought were especially hilarious. I hope you enjoy it!</p>
+            <div id="canHazDiv" class="linkDiv">
+                <!--
+                    I got this image from https://www.pinterest.com/pin/692921092647044005/
+                -->
+                <a href="https://icanhazdadjoke.com/api"><img class="linkImage ui-corner-all" src="images/smiley.png" alt="Smiley Face"></a>
+                <p>I Can Haz Dad Joke Api</p>
+            </div>
+            <div id="funTranslationDiv" class="linkDiv">
+                <!--
+                    I got this image from https://www.pngitem.com/middle/hmhhiii_thumb-image-fun-activity-icon-png-transparent-png/
+                -->
+                <a href="https://funtranslations.com/api/"><img class="linkImage ui-corner-all" src="images/fun.png" alt="Fun"></a>
+                <p>Fun Translations Api</p>
+            </div>
+        </div>
+    </body>
+</html>
